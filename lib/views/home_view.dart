@@ -6,8 +6,7 @@ class HomeView extends StatelessWidget {
   const HomeView({Key? key}) : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(
+    return Center(
         child: Container(
           decoration: BoxDecoration(
             color: Colors.grey.shade100,
@@ -48,7 +47,6 @@ class HomeView extends StatelessWidget {
             ],
           ),
         ),
-      ),
-    );
+      );
   }
 }
