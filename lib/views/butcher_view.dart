@@ -5,13 +5,15 @@ class ButcherView extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Section(
-        Colors.red.shade50,
-        Colors.red.shade900,
-        'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/meat.jpg','Meet',145.0,
-        'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/raw-beef-hamburger.jpg','Beef Burger',110.0,
-        'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/fresh-chicken.jpg','Chicken',45.5,
-        'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/fresh-minced-meat.jpg','Minced Meat',115.5,
-       );
+    return Scaffold(
+        body: Section(
+          Colors.red.shade50,
+          Colors.red.shade900,
+          'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/meat.jpg','Meet',145.0,
+          'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/raw-beef-hamburger.jpg','Beef Burger',110.0,
+          'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/fresh-chicken.jpg','Chicken',45.5,
+          'C:/Users/Legion 5/StudioProjects/zatona_market/assets/images/fresh-minced-meat.jpg','Minced Meat',115.5,
+         ),
+    );
   }
 }
